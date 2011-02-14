@@ -5,6 +5,11 @@ There's still a lot of work to be done (for example, it still has all of the IR 
 
 My main editing experiences encompass Ruby (and Rails), HTML/ERB/HAML, SASS/CSS, and Javacsript. Those are my highest priorities. As I start using other languages (PHP, sadly, is probably next up), I'll add support for various facets that they bring to the table. This being said, I'm not against adding in support for additional languages (Python, Java, etc), but since I don't use those in any capacity day-to-day, I'm going to have to rely on the input of others.
 
+## Installation ##
+Drop this file in your ~/.vim/colors directory, and then add `colorscheme wandering` to your ~/.gvimrc file.
+
+## Support ##
+Currently this theme only really works in MacVim (other GUI VIM editors are wholly untested).
 
 ## Still to be done ##
 * Console-friendly colors
