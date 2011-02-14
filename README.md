@@ -1,3 +1,5 @@
+# wandering.vim #
+
 ## About ##
 This is a port of [Matthew Anderson's](https://github.com/wanderingmatt) 'Wandering' TextMate theme, built up using [Todd Werth's](https://github.com/twerth) 'IR Black' VIM theme (which is in turn a port of his own TextMate theme). I'm really just standing on the shoulders of giants here, but I really like Matt's theme, and nothing in VIM comes close.
 
