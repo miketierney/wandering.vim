@@ -269,6 +269,8 @@ hi javaScriptBlock            guifg=#ffffff     guibg=NONE        gui=NONE      
 hi javaScriptParen            guifg=#ffffff     guibg=NONE        gui=NONE      ctermfg=white       ctermbg=NONE        cterm=NONE
 hi javaScriptFunction         guifg=#9add51     guibg=NONE        gui=NONE      ctermfg=green       ctermbg=NONE        cterm=NONE
 hi javaScriptFuncName         guifg=#96c8ff     guibg=NONE        gui=NONE      ctermfg=cyan        ctermbg=NONE        cterm=NONE
+hi javaScriptDocTags          guifg=#dddddd     guibg=#424241     gui=BOLD      ctermfg=gray          ctermbg=NONE        cterm=BOLD
+hi javaScriptDocParam         guifg=#c8ff65     guibg=#424241     gui=NONE      ctermfg=cyan
 
 hi link javaScriptFuncBlock   Entity
 hi link javaScriptNumber      Number
