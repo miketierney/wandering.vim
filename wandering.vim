@@ -68,16 +68,16 @@ let colors_name = "wandering"
 "hi Example         guifg=NONE        guibg=NONE        gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
 
 " General colors
-hi Normal           guifg=#ffffff     guibg=#2c2c2c     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
+hi Normal           guifg=#ffffff     guibg=#2c2c2c     gui=NONE      ctermfg=white       ctermbg=black       cterm=NONE
 " TOOD: make sure the foreground on the NonText setting makes sense.
-hi NonText          guifg=#595f64     guibg=#2c2c2c     gui=NONE      ctermfg=black       ctermbg=NONE        cterm=NONE 
+hi NonText          guifg=#595f64     guibg=#2c2c2c     gui=NONE      ctermfg=lightgrey      ctermbg=black      cterm=NONE 
 
-hi Cursor           guifg=#2c2c2c     guibg=#5fc344     gui=NONE      ctermfg=black       ctermbg=white       cterm=reverse
-hi LineNr           guifg=#3D3D3D     guibg=#2c2c2c     gui=NONE      ctermfg=darkgray    ctermbg=NONE        cterm=NONE
+hi Cursor           guifg=#2c2c2c     guibg=#5fc344     gui=NONE      ctermfg=black      ctermbg=green      cterm=reverse
+hi LineNr           guifg=#3D3D3D     guibg=#2c2c2c     gui=NONE      ctermfg=grey      ctermbg=black      cterm=NONE
 
-hi VertSplit        guifg=#1d1d1d     guibg=#1d1d1d     gui=NONE      ctermfg=darkgray    ctermbg=darkgray    cterm=NONE
-hi StatusLine       guifg=#4c4c4c     guibg=#1d1d1d     gui=italic    ctermfg=white       ctermbg=darkgray    cterm=NONE
-hi StatusLineNC     guifg=#2c2c2c     guibg=#1d1d1d     gui=NONE      ctermfg=blue        ctermbg=darkgray    cterm=NONE  
+hi VertSplit        guifg=#1d1d1d     guibg=#1d1d1d     gui=NONE      ctermfg=grey      ctermbg=grey      cterm=NONE
+hi StatusLine       guifg=#4c4c4c     guibg=#1d1d1d     gui=italic    ctermfg=lightgrey      ctermbg=grey      cterm=NONE
+hi StatusLineNC     guifg=#2c2c2c     guibg=#1d1d1d     gui=NONE      ctermfg=black      ctermbg=grey      cterm=NONE  
 
 " TODO: Need Folded styling
 hi Folded           guifg=#a0a8b0     guibg=#384048     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
@@ -100,15 +100,16 @@ hi ErrorMsg         guifg=white       guibg=#92000e     gui=BOLD      ctermfg=wh
 hi WarningMsg       guifg=white       guibg=#92000e     gui=BOLD      ctermfg=white       ctermbg=red         cterm=NONE
 
 " Message displayed in lower left, such as --INSERT--
-hi ModeMsg          guifg=#2c2c2c       guibg=#cfedc6     gui=BOLD      ctermfg=black       ctermbg=cyan        cterm=BOLD
+hi ModeMsg          guifg=#2c2c2c       guibg=#cfedc6     gui=BOLD      ctermfg=black      ctermbg=cyan        cterm=BOLD
 
 if version >= 700 " Vim 7.x specific colors
   hi CursorLine     guifg=NONE        guibg=#353535     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=BOLD
   hi CursorColumn   guifg=NONE        guibg=#353535     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=BOLD
-  hi MatchParen     guifg=#2c2c2c     guibg=#cfedc6     gui=BOLD      ctermfg=white       ctermbg=darkgray    cterm=NONE
+  hi MatchParen     guifg=#2c2c2c     guibg=#cfedc6     gui=BOLD      ctermfg=black      ctermbg=darkgray    cterm=NONE
   hi Pmenu          guifg=#f6f3e8     guibg=#444444     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
   hi PmenuSel       guifg=#000000     guibg=#cae682     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
-  hi Search         guifg=#2c2c2c     guibg=#e1d896     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=underline
+  hi Search         guifg=#2c2c2c     guibg=#e1d896     gui=NONE      ctermfg=black      ctermbg=NONE        cterm=underline
+  hi ColorColumn    guifg=NONE        guibg=#353535     gui=NONE      ctermfg=NONE        ctermbg=darkgray    cterm=NONE
 endif
 
 " Syntax highlighting
@@ -233,9 +234,9 @@ hi cssPseudoClass             guifg=#c69ebf     guibg=NONE        gui=NONE      
 hi cssFunctionName            guifg=#e0db8f     guibg=NONE        gui=NONE      ctermfg=brown       ctermbg=NONE        cterm=NONE
 hi cssRenderProp              guifg=#2e98da     guibg=NONE        gui=NONE      ctermfg=blue        ctermbg=NONE        cterm=NONE
 hi cssRenderAttr              guifg=#9add51     guibg=NONE        gui=NONE      ctermfg=green       ctermbg=NONE        cterm=NONE
-hi cssUrl                     guifg=#5fc344     guibg=NONE        gui=NONE      ctermfg=green       ctermbg=NONE        cterm=NONE
-hi cssValueNumber             guifg=#5fc344     guibg=NONE        gui=NONE      ctermfg=green       ctermbg=NONE        cterm=NONE
-hi cssUIAttr                  guifg=#5fc344     guibg=NONE        gui=NONE      ctermfg=green       ctermbg=NONE        cterm=NONE
+hi cssUrl                     guifg=#5fc344     guibg=NONE        gui=NONE      ctermfg=green      ctermbg=NONE        cterm=NONE
+hi cssValueNumber             guifg=#5fc344     guibg=NONE        gui=NONE      ctermfg=green      ctermbg=NONE        cterm=NONE
+hi cssUIAttr                  guifg=#5fc344     guibg=NONE        gui=NONE      ctermfg=green      ctermbg=NONE        cterm=NONE
 
 hi link cssPseudoClassId      cssPseudoClass
 hi link cssBoxProp            cssRenderProp
