@@ -95,7 +95,7 @@ hi WildMenu         guifg=green       guibg=yellow      gui=NONE      ctermfg=bl
 hi PmenuSbar        guifg=black       guibg=white       gui=NONE      ctermfg=black       ctermbg=white       cterm=NONE
 "hi Ignore           guifg=gray        guibg=black       gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
 
-hi Error            guifg=NONE        guibg=NONE        gui=undercurl ctermfg=white       ctermbg=red         cterm=NONE     guisp=#92000e " undercurl color
+hi Error            guifg=white       guibg=#92000e     gui=undercurl ctermfg=white       ctermbg=red         cterm=NONE     guisp=#92000e " undercurl color
 hi ErrorMsg         guifg=white       guibg=#92000e     gui=BOLD      ctermfg=white       ctermbg=red         cterm=NONE
 hi WarningMsg       guifg=white       guibg=#92000e     gui=BOLD      ctermfg=white       ctermbg=red         cterm=NONE
 
@@ -237,6 +237,7 @@ hi cssRenderAttr              guifg=#9add51     guibg=NONE        gui=NONE      
 hi cssUrl                     guifg=#5fc344     guibg=NONE        gui=NONE      ctermfg=green      ctermbg=NONE        cterm=NONE
 hi cssValueNumber             guifg=#5fc344     guibg=NONE        gui=NONE      ctermfg=green      ctermbg=NONE        cterm=NONE
 hi cssUIAttr                  guifg=#5fc344     guibg=NONE        gui=NONE      ctermfg=green      ctermbg=NONE        cterm=NONE
+hi cssImportant               guifg=#ffffff     guibg=#f61500     gui=BOLD      ctermfg=white      ctermbg=red         cterm=NONE
 
 hi link cssPseudoClassId      cssPseudoClass
 hi link cssBoxProp            cssRenderProp
