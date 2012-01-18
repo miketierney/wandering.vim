@@ -225,6 +225,7 @@ hi link htmlEndTag      Identifier
 
 " Special for CSS
 hi cssInclude                 guifg=#97a4b6     guibg=NONE        gui=NONE      ctermfg=gray        ctermbg=NONE        cterm=NONE
+hi cssImportant               guifg=#ffffff     guibg=#f61500     gui=BOLD      ctermfg=white       ctermbg=red         cterm=BOLD
 hi cssBraces                  guifg=#ffffff     guibg=NONE        gui=NONE      ctermfg=white       ctermbg=NONE        cterm=NONE
 hi cssTagName                 guifg=#96c8ff     guibg=NONE        gui=NONE      ctermfg=blue        ctermbg=NONE        cterm=NONE
 hi cssIdentifier              guifg=#ff5500     guibg=NONE        gui=NONE      ctermfg=white       ctermbg=NONE        cterm=NONE
